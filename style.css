@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* phone */
+.instagram-wrapper {
+  margin: 0 auto;
+  background-color: #121212;
+  width: 420px;
+  height: 800px;
+  border-radius: 30px;
+}
+
+/* insta-content */
+.insta-content {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 1.5rem;
+  width: 90%;
+  height: 92%;
+  margin-top: 30px;
+  margin-left: 22px;
+  border-radius: 15px;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+  width: 90%;
+  padding: 1.5rem 0;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.instagram-logo {
+  height: 3rem;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 0.6rem;
+}
+
+.profile-photo img {
+  width: 130px;
+  height: 130px;
+}
+
+.instagram-login {
+  background-color: #0095f6;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.instagram-logout {
+  color: #0095f6;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: rgb(160, 160, 160);
+}
+
+.link-blue {
+  color: #0095f6;
+}
+
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app-download {
+  height: 4rem;
+  width: 8rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  padding: 1rem 0.5rem;
+  font-size: 15px;
+}
+
+/* media query */
+
+@media (max-width: 650px) {
+  body {
+    background-color: #fff;
+  }
+
+  .instagram-wrapper {
+    background-color: transparent;
+  }
+
+  .insta-content {
+    width: 100%;
+  }
+}
